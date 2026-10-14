@@ -1,0 +1,8 @@
+f = open("vowel.txt","r")
+content = f.read()
+words = content.split()
+print("List of words",words)
+print("Total number of words",len(words))
+unique = set(words)
+print("Unique words",unique)
+f.close()
